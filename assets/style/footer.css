@@ -1,0 +1,481 @@
+.FooterBG {
+  background: rgb( 48,48, 48 );
+  position: absolute;
+  left: 0px;
+  top: 1578px;
+  width: 1200px;
+  height: 388px;
+  z-index: 2;
+}
+.CopyBG {
+  background-color: rgb( 43, 43, 43 );
+  position: absolute;
+  left: 0px;
+  top: 1966px;
+  width: 1200px;
+  height: 60px;
+  z-index: 2;
+}
+.Bottom_border1 {
+  background-color: rgb( 0, 0, 0 );
+  position: absolute;
+  left: 0px;
+  top: 1965px;
+  width: 1200px;
+  height: 1px;
+  z-index: 12;
+}
+.Bottom_border2 {
+  background-color: rgb( 58, 58, 58 );
+  position: absolute;
+  left: 0px;
+  top: 1966px;
+  width: 1200px;
+  height: 1px;
+  z-index: 9;
+}
+
+
+/*------------BLOG---------------*/
+.FromBlog {
+  font-size: 16px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 119px;
+  top: 1599px;
+  z-index: 30;
+}
+.PostTitle {
+  font-size: 14px;
+  font-family:GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 120px;
+  top: 1650px;
+  letter-spacing:1px;
+  z-index: 30;
+  }
+.Admin {
+  font-size: 10px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 142 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 119.8px;
+  letter-spacing:1px;
+  top: 1693px;
+  text-decoration: none;
+  z-index: 30;
+}
+.domainName {
+  font-size: 10px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  opacity: 0.7;
+  left: 155px;
+  top: 1683px;
+  letter-spacing:0.5px;
+  z-index: 30;
+}
+.Friday {
+  font-size: 10px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.5px;
+  left: 120px;
+  top: 1705px;
+  z-index: 30;
+}
+.Vestibul {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.64;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.33px;
+  left: 119.75px;
+  top: 1723px;
+  width: 223px;
+  height: 139px;
+  z-index: 33;
+}
+.ReadMor {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.33px;
+  left: 120px;
+  top: 1893px;
+  text-decoration: none;
+  z-index: 33;
+}
+
+/*------------LINKS---------------*/
+
+.Links {
+  font-size: 16px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  letter-spacing:-0.2px;
+  left: 364px;
+  top: 1599px;
+  z-index: 33;
+}
+.LoremSi {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.45px;
+  left: 360px;
+  top: 1658px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Amet {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.6px;
+  left: 360px;
+  top: 1692px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Praesent {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.45px;
+  left: 360px;
+  top: 1727px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Curabitur {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.45px;
+  left: 360px;
+  top: 1761px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Aliquam {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.5px;
+  left: 360px;
+  top: 1796px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Cras {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.3px;
+  left: 360px;
+  top: 1830px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Sed {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 143 );
+  line-height: 2.65;
+  text-align: left;
+  position: absolute;
+  letter-spacing:0.3px;
+  left: 360px;
+  top: 1865px;
+  z-index: 33;
+  text-decoration: none;
+}
+.Line1 {
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1690px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+.Line2 {
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1724px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+.Line3 {
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1759px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+.Line4 {
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1793px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+.Line5 {
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1828px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+.Line6{
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1862px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+.Line7 {
+  background-color: rgb( 64, 64, 64 );
+  position: absolute;
+  left: 364px;
+  top: 1897px;
+  width: 225px;
+  height: 1px;
+  z-index: 33;
+}
+
+/*------------TWEETS---------------*/
+
+.Tweets {
+  font-size: 16px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.33px;
+  left: 609px;
+  top: 1599px;
+  z-index: 33;
+}
+.namehere1 {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 142 );
+  line-height: 1.6;
+  text-align: left;
+  text-decoration: none;
+  position: absolute;
+  letter-spacing: 0.7px;
+  left: 609px;
+  top: 1665px;
+  z-index: 33;
+}
+.Justoid1 {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.62;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.3px;
+  left: 609px;
+  top: 1652px;
+  width: 219px;
+  height: 222px;
+  z-index: 33;
+}
+.namehere2 {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 118, 195, 142 );
+  line-height: 1.62;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  left: 609px;
+  top: 1790px;
+  z-index: 33;
+}
+.Justoid2 {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.62;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.3px;
+  left: 609px;
+  top: 1777px;
+  width: 219px;
+  height: 222px;
+  z-index: 33;
+}
+
+/*------------CONTACT---------------*/
+
+.Contact {
+  font-size: 16px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  letter-spacing: -0.2px;
+  left: 854px;
+  top: 1599px;
+  z-index: 25;
+}
+.inp {
+  background-color: rgb( 34, 34, 34 );
+  position: absolute;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 152, 152, 152 );
+  border: 0px;
+  left: 855px;
+  top: 1664px;
+  width: 215px;
+  height: 33px;
+  z-index: 33;
+}
+.email {
+  background-color: rgb( 34, 34, 34 );
+  position: absolute;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 152, 152, 152 );
+  border: 0px;
+  left: 855px;
+  top: 1709px;
+  width: 215px;
+  height: 33px;
+  z-index: 33;
+}
+.subj {
+  background-color: rgb( 34, 34, 34 );
+  position: absolute;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 152, 152, 152 );
+  border: 0px;
+  left: 855px;
+  top: 1754px;
+  width: 215px;
+  height: 33px;
+  z-index: 33;
+}
+.Mesag{
+  background-color: rgb( 34, 34, 34 );
+  position: absolute;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 152, 152, 152 );
+  border: 0px;
+  left: 855px;
+  top: 1799px;
+  width: 213px;
+  height: 78px;
+  z-index: 33;
+}
+.SUBMIT {
+  background: rgb( 118, 195, 143 );
+  padding: 10px;
+  border-radius: 10px;
+  font-family: GeorgiaRegularfont;
+  border: 0px;
+  top: 1889px;
+  left:855px;
+  width: 75px;
+  height: 35px;
+  position: absolute;
+  z-index: 35;
+}
+
+.Copy {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 120px;
+  top:1978px;
+  letter-spacing: 0.4px;
+  z-index: 8;
+}
+.Template {
+  font-size: 13px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1;
+  text-align: right;
+  position: absolute;
+  left: 918px;
+  top:1978px;
+  letter-spacing: 0.4px;
+  z-index: 7;
+}

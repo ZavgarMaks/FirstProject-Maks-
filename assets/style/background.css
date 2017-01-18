@@ -1,0 +1,9 @@
+.bgBody {
+  background-color: rgb( 102, 0, 0 );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 2027px;
+  z-index: 1;
+  }

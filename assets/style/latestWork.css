@@ -1,0 +1,408 @@
+.borderWork {
+  background-color: rgb( 48, 48, 48 );
+  position: absolute;
+  left: 120px;
+  top: 1033px;
+  width: 960px;
+  height: 3px;
+  z-index: 17;
+}
+.latestWork {
+  font-size: 32px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 14px;
+  top: -27px;  
+  z-index: 18;
+}
+.BackWork {
+  background-color: rgb( 48, 48, 48 );
+  border-radius: 10px;
+  position: absolute;
+  left: 472px;
+  top: 1010px;
+  width: 256px;
+  height: 48px;
+  z-index: 17;
+}
+
+/*1Work*/
+
+.ImageBG1 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 120px;
+  top: 1088px;
+  width: 300px;
+  height: 200px;
+  z-index: 20;
+}
+.ImageWork1 {
+  background-color: rgb( 53, 53, 53 );
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 290px;
+  height: 190px;
+  z-index: 22;
+}
+.Text290_1 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 96px;
+  top: 63px;
+  z-index: 23;
+}
+.Invis1 {
+  background-color: rgb( 0, 0, 0 );
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 290px;
+  height: 30px;
+  z-index: 23;
+}
+.LoremIpsum1 {
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 69px;
+  top: 152px;
+  z-index: 25;
+}
+
+.ImageBG1:hover {
+  background: rgb( 118, 195, 143 );
+}
+.ImageBG1:hover .Invis1 {
+  opacity: 0;
+}
+.ImageBG1:hover .LoremIpsum1 {
+  opacity:0;
+}
+
+/*2Work*/
+
+.ImageBG2 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 450px;
+  top: 1088px;
+  width: 300px;
+  height: 200px;
+  z-index: 20;
+}
+.ImageWork2 {
+  background-color: rgb( 53, 53, 53 );
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 290px;
+  height: 190px;
+  z-index: 22;
+}
+.Text290_2 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 96px;
+  top: 63px;
+  z-index: 23;
+}
+.Invis2 {
+  background-color: rgb( 0, 0, 0 );
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 290px;
+  height: 30px;
+  z-index: 23;
+}
+.LoremIpsum2 {
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 69px;
+  top: 152px;
+  z-index: 25;
+}
+
+.ImageBG2:hover {
+  background: rgb( 118, 195, 143 );
+}
+.ImageBG2:hover .Invis2 {
+  opacity: 0;
+}
+.ImageBG2:hover .LoremIpsum2 {
+  opacity:0;
+}
+
+/*3Work*/
+
+.ImageBG3 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 780px;
+  top: 1088px;
+  width: 300px;
+  height: 200px;
+  z-index: 20;
+}
+.ImageWork3 {
+  background-color: rgb( 53, 53, 53 );
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 290px;
+  height: 190px;
+  z-index: 22;
+}
+.Text290_3 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 96px;
+  top: 63px;
+  z-index: 23;
+}
+.Invis3 {
+  background-color: rgb( 0, 0, 0 );
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 290px;
+  height: 30px;
+  z-index: 23;
+}
+.LoremIpsum3 {
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 69px;
+  top: 152px;
+  z-index: 25;
+}
+
+.ImageBG3:hover {
+  background: rgb( 118, 195, 143 );
+}
+.ImageBG3:hover .Invis3 {
+  opacity: 0;
+}
+.ImageBG3:hover .LoremIpsum3 {
+  opacity:0;
+}
+
+/*4Work*/
+
+.ImageBG4 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 120px;
+  top: 1318px;
+  width: 300px;
+  height: 200px;
+  z-index: 20;
+}
+.ImageWork4 {
+  background-color: rgb( 53, 53, 53 );
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 290px;
+  height: 190px;
+  z-index: 22;
+}
+.Text290_4 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 96px;
+  top: 63px;
+  z-index: 23;
+}
+.Invis4 {
+  background-color: rgb( 0, 0, 0 );
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 290px;
+  height: 30px;
+  z-index: 23;
+}
+.LoremIpsum4 {
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 69px;
+  top: 152px;
+  z-index: 25;
+}
+
+.ImageBG4:hover {
+  background: rgb( 118, 195, 143 );
+}
+.ImageBG4:hover .Invis4 {
+  opacity: 0;
+}
+.ImageBG4:hover .LoremIpsum4 {
+  opacity:0;
+}
+
+/*5Work*/
+
+.ImageBG5 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 450px;
+  top: 1318px;
+  width: 300px;
+  height: 200px;
+  z-index: 20;
+}
+.ImageWork5 {
+  background-color: rgb( 53, 53, 53 );
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 290px;
+  height: 190px;
+  z-index: 22;
+}
+.Text290_5 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 96px;
+  top: 63px;
+  z-index: 23;
+}
+.Invis5 {
+  background-color: rgb( 0, 0, 0 );
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 290px;
+  height: 30px;
+  z-index: 23;
+}
+.LoremIpsum5 {
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 69px;
+  top: 152px;
+  z-index: 25;
+}
+
+.ImageBG5:hover {
+  background: rgb( 118, 195, 143 );
+}
+.ImageBG5:hover .Invis5 {
+  opacity: 0;
+}
+.ImageBG5:hover .LoremIpsum5 {
+  opacity:0;
+}
+
+/*6Work*/
+
+.ImageBG6 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 780px;
+  top: 1318px;
+  width: 300px;
+  height: 200px;
+  z-index: 20;
+}
+.ImageWork6 {
+  background-color: rgb( 53, 53, 53 );
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 290px;
+  height: 190px;
+  z-index: 22;
+}
+.Text290_6 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 96px;
+  top: 63px;
+  z-index: 23;
+}
+.Invis6 {
+  background-color: rgb( 0, 0, 0 );
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 290px;
+  height: 30px;
+  z-index: 23;
+}
+.LoremIpsum6 {
+  font-size: 14px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 69px;
+  top: 152px;
+  z-index: 25;
+}
+
+.ImageBG6:hover {
+  background: rgb( 118, 195, 143 );
+}
+.ImageBG6:hover .Invis6 {
+  opacity: 0;
+}
+.ImageBG6:hover .LoremIpsum6 {
+  opacity:0;
+}

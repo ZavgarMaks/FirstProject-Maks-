@@ -1,0 +1,302 @@
+/*Первый блок*/
+.Rectangle1 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 120px;
+  top: 665px;
+  width: 225px;
+  display: block;
+  height: 305px;
+  z-index: 14;
+ }
+
+.Rectangle11 {
+  background-color: rgb( 51, 51, 51 );
+  position: absolute;
+  left: 52px;
+  top: 21px;
+  width: 120px;
+  height: 120px;
+  z-index: 15 ;
+}
+
+.Text120_1 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+  z-index: 16;
+}
+
+.Title1 {
+  font-size:32px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 51, 51, 51 );
+  text-align: center;
+  position: absolute;
+  line-height: 1;
+  left: 0px;
+  top: 154px;
+  display: block;
+  text-decoration: none;
+  z-index: 17;
+  }
+
+.Vesta1 {
+  font-size: 13px;
+  z-index:17;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.3;
+  text-align: center;
+  position: absolute;
+  left: 25px;
+  top: 222px;
+  width: 175px;
+  height: 47px;
+  letter-spacing: -0.1px;
+}
+.Rectangle1:hover .Vesta1 {
+  color:rgb( 255, 255, 255 );
+}
+.Rectangle1:hover .Rectangle11 {
+  background: rgb( 255, 255, 255 );
+}
+.Rectangle1:hover .Text120_1 {
+  color: rgb( 1, 1, 1 )
+}
+.Rectangle1:hover .Title1 {
+  color: rgb( 255, 255, 255 );
+}
+.Rectangle1:hover {
+  background: rgb( 118, 195, 143 );
+}  
+
+/*Второй блок*/
+
+.Rectangle2 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 365px;
+  top: 665px;
+  width: 225px;
+  height: 305px;
+  z-index: 14;
+ }
+.Rectangle22 {
+  background-color: rgb( 51, 51, 51 );
+  position: absolute;
+  left: 52px;
+  top: 21px;
+  width: 120px;
+  height: 120px;
+  z-index: 15 ;
+}
+.Text120_2 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+  z-index: 16;
+}
+.Title2 {
+  font-size:32px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 51, 51, 51 );
+  text-align: center;
+  position: absolute;
+  line-height: 1;
+  left: 0px;
+  top: 154px;
+  display: block;
+  text-decoration: none;
+  z-index: 17;
+  }
+
+.Vesta2 {
+  font-size: 13px;
+  z-index:17;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.3;
+  text-align: center;
+  position: absolute;
+  left: 25px;
+  top: 222px;
+  width: 175px;
+  height: 47px;
+  letter-spacing: -0.1px;
+}
+.Rectangle2:hover .Vesta2 {
+  color:rgb( 255, 255, 255 );
+}
+.Rectangle2:hover .Rectangle22 {
+  background: rgb( 255, 255, 255 );
+}
+.Rectangle2:hover .Text120_2 {
+  color: rgb( 1, 1, 1 )
+}
+.Rectangle2:hover .Title2 {
+  color: rgb( 255, 255, 255 );
+}
+.Rectangle2:hover {
+  background: rgb( 118, 195, 143 );
+}
+
+/*Третий блок*/
+
+.Rectangle3 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 610px;
+  top: 665px;
+  width: 225px;
+  height: 305px;
+  z-index: 14;
+ }
+.Rectangle33 {
+  background-color: rgb( 51, 51, 51 );
+  position: absolute;
+  left: 52px;
+  top: 21px;
+  width: 120px;
+  height: 120px;
+  z-index: 15 ;
+}
+.Text120_3 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+  z-index: 16;
+}
+.Title3 {
+  font-size:32px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 51, 51, 51 );
+  text-align: center;
+  position: absolute;
+  line-height: 1;
+  left: 0px;
+  top: 154px;
+  display: block;
+  text-decoration: none;
+  z-index: 17;
+  }
+
+.Vesta3 {
+  font-size: 13px;
+  z-index:17;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.3;
+  text-align: center;
+  position: absolute;
+  left: 25px;
+  top: 222px;
+  width: 175px;
+  height: 47px;
+  letter-spacing: -0.1px;
+}
+.Rectangle3:hover .Vesta3 {
+  color:rgb( 255, 255, 255 );
+}
+.Rectangle3:hover .Rectangle33 {
+  background: rgb( 255, 255, 255 );
+}
+.Rectangle3:hover .Text120_3 {
+  color: rgb( 1, 1, 1 )
+}
+.Rectangle3:hover .Title3 {
+  color: rgb( 255, 255, 255 );
+}
+.Rectangle3:hover {
+  background: rgb( 118, 195, 143 );
+}
+
+/*Четвертый блок*/
+
+.Rectangle4 {
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 855px;
+  top: 665px;
+  width: 225px;
+  height: 305px;
+  z-index: 14;
+ }
+.Rectangle44 {
+  background-color: rgb( 51, 51, 51 );
+  position: absolute;
+  left: 52px;
+  top: 21px;
+  width: 120px;
+  height: 120px;
+  z-index: 15 ;
+}
+.Text120_4 {
+  font-size: 18px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+  z-index: 16;
+}
+.Title4 {
+  font-size:32px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 51, 51, 51 );
+  text-align: center;
+  position: absolute;
+  line-height: 1;
+  left: 0px;
+  top: 154px;
+  display: block;
+  text-decoration: none;
+  z-index: 17;
+  }
+
+.Vesta4 {
+  font-size: 13px;
+  z-index:17;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 151, 151, 151 );
+  line-height: 1.3;
+  text-align: center;
+  position: absolute;
+  left: 25px;
+  top: 222px;
+  width: 175px;
+  height: 47px;
+  letter-spacing: -0.1px;
+}
+.Rectangle4:hover .Vesta4 {
+  color:rgb( 255, 255, 255 );
+}
+.Rectangle4:hover .Rectangle44 {
+  background: rgb( 255, 255, 255 );
+}
+.Rectangle4:hover .Text120_4 {
+  color: rgb( 1, 1, 1 )
+}
+.Rectangle4:hover .Title4 {
+  color: rgb( 255, 255, 255 );
+}
+.Rectangle4:hover {
+  background: rgb( 118, 195, 143 );
+}
