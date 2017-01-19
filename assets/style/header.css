@@ -1,128 +1,128 @@
-.TopBorder {
+.top-border {
   background-color: rgb( 118, 195, 143 );
-  position: absolute;
+  position: relative;
   left: 0px;
   top: 0px;
   width: 1200px;
   height: 5px;
   z-index:2;
-  }
-.TheModernist {
+}
+.the-modernist {
   font-size: 28px;
   font-family: GeorgiaRegularfont;
   color: white;
   line-height: 1;
   text-align: left;
-  position: absolute;
+  position: relative;
   letter-spacing:0px;
-  left: 120px;
-  top: 44px;
+  margin-left: 120px;
+  top: 40px;
   text-decoration: none;
   z-index:3;
-  }
-.FreePSD {
+}
+.free-psd {
   font-size: 11px;
   font-family: GeorgiaRegularfont;
   color: rgb( 151, 151, 151 );
   line-height: 1;
   text-align: left;
-  position: absolute;
-  left: 119.5px;
-  top: 59.75px;
+  position: relative;
+  margin-left: 119.5px;
+  margin-top: 37.75px;
   letter-spacing:0.75px;
   z-index:4;
-  }
-.HOME {
+}
+.home {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
-  position: absolute;
-  left: 445px;
-  top: 48.55px;
+  position: relative;
+  margin-left: 445px;
+  top: -36px;
   text-decoration: none;
   letter-spacing:-0.7px;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index:5;
-  }
-.STYLE_DEMO {
+}
+.style-demo {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
-  position: absolute;
-  left: 526px;
-  top: 48.55px;
+  position: relative;
+  margin-left: -2px;
+  top:-36px;
   letter-spacing:-0.7px;
   text-decoration: none;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index:6;
-  }
-.FULL_WIDTH {
+}
+.full-width {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
-  position: absolute;
-  left: 647px;
-  top: 48.55px;
+  position: relative;
+  margin-left: -3px;
+  top: -36px;
   letter-spacing:-0.3px;
   text-decoration: none;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index:7;
-  }
-.DROPDOWN {
+}
+.dropdown {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
-  position: absolute;
-  left: 770px;
-  top: 48.55px;
+  position: relative;
+  margin-left: -4px;
+  top: -36px;
   letter-spacing:-0.8px;
   text-decoration: none;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index:8;
-  }
-.PORTFOLIO {
+}
+.portfolio {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
-  position: absolute;
-  left: 885px;
-  top: 48.55px;
+  position: relative;
+  margin-left: -4px;
+  top: -36px;
   letter-spacing:-0.3px;
   text-decoration: none;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index:9;
-  }
-.GALLERY {
+}
+.gallery {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
-  position: absolute;
-  left: 998px;
-  top: 48.55px;
+  position: relative;
+  margin-left: -5px;
+  top: -36px;
   letter-spacing:-0.3px;
   text-decoration: none;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index:10;
-  }
+}
 .bl:hover {
     background: rgb( 118, 195, 143 ); 
     border-radius: 10px;
-  }
+}
