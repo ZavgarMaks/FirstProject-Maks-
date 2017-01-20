@@ -11,25 +11,14 @@
  }
 
 .rectangle11 {
-  background-color: rgb( 51, 51, 51 );
+  background: url(https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png);
+  background-size: contain;
   position: relative;
   margin-left: 52px;
   top: 21px;
   width: 120px;
   height: 120px;
   z-index: 15 ;
-}
-
-.text120-1 {
-  font-size: 18px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 255, 255, 255 );
-  line-height: 1.2;
-  text-align: left;
-  position: relative;
-  margin-left: 12px;
-  top: 46px;
-  z-index: 16;
 }
 
 .title1 {
@@ -63,9 +52,6 @@
 .rectangle1:hover .vesta1 {
   color:rgb( 255, 255, 255 );
 }
-.rectangle1:hover .rectangle11 {
-  background: rgb( 255, 255, 255 );
-}
 .rectangle1:hover .text120-1 {
   color: rgb( 1, 1, 1 )
 }
@@ -82,30 +68,20 @@
   background-color: rgb( 255, 255, 255 );
   position: relative;
   margin-left: 365px;
-  margin-top: -323px;
+  margin-top: -306px;
   width: 225px;
   height: 305px;
   z-index: 14;
 }
 .rectangle22 {
-  background-color: rgb( 51, 51, 51 );
+  background: url(../img/css3.png);
+  background-size: contain;
   position: relative;
   margin-left: 52px;
   top: 21px;
   width: 120px;
   height: 120px;
   z-index: 15 ;
-}
-.text120-2 {
-  font-size: 18px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 255, 255, 255 );
-  line-height: 1.2;
-  text-align: left;
-  position: relative;
-  margin-left: 12px;
-  top: 46px;
-  z-index: 16;
 }
 .title2 {
   font-size:32px;
@@ -120,7 +96,6 @@
   text-decoration: none;
   z-index: 17;
 }
-
 .vesta2 {
   font-size: 13px;
   z-index:17;
@@ -138,9 +113,6 @@
 .rectangle2:hover .vesta2 {
   color:rgb( 255, 255, 255 );
 }
-.rectangle2:hover .rectangle22 {
-  background: rgb( 255, 255, 255 );
-}
 .rectangle2:hover .text120-2 {
   color: rgb( 1, 1, 1 )
 }
@@ -157,30 +129,20 @@
   background-color: rgb( 255, 255, 255 );
   position: relative;
   margin-left: 610px;
-  margin-top: -323px;
+  margin-top: -305px;
   width: 225px;
   height: 305px;
   z-index: 14;
 }
 .rectangle33 {
-  background-color: rgb( 51, 51, 51 );
+  background: url(../img/javascript.png);
+  background-size: contain;
   position: relative;
   margin-left: 52px;
   top: 21px;
   width: 120px;
   height: 120px;
   z-index: 15 ;
-}
-.text120-3 {
-  font-size: 18px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 255, 255, 255 );
-  line-height: 1.2;
-  text-align: left;
-  position: relative;
-  margin-left: 12px;
-  top: 46px;
-  z-index: 16;
 }
 .title3 {
   font-size:32px;
@@ -213,9 +175,6 @@
 .rectangle3:hover .vesta3 {
   color:rgb( 255, 255, 255 );
 }
-.rectangle3:hover .rectangle33 {
-  background: rgb( 255, 255, 255 );
-}
 .rectangle3:hover .text120-3 {
   color: rgb( 1, 1, 1 )
 }
@@ -232,30 +191,20 @@
   background-color: rgb( 255, 255, 255 );
   position: relative;
   margin-left: 855px;
-  margin-top: -323px;
+  margin-top: -305px;
   width: 225px;
   height: 305px;
   z-index: 14;
 }
 .rectangle44 {
-  background-color: rgb( 51, 51, 51 );
+  background: url(http://www.mgatmaytan.arkitech.ca/images/technologies/php.png);
+  background-size: contain;
   position: relative;
   margin-left: 52px;
   top: 21px;
   width: 120px;
   height: 120px;
   z-index: 15 ;
-}
-.text120-4 {
-  font-size: 18px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 255, 255, 255 );
-  line-height: 1.2;
-  text-align: left;
-  position: relative;
-  margin-left: 12px;
-  top: 46px;
-  z-index: 16;
 }
 .title4 {
   font-size:32px;
@@ -287,9 +236,6 @@
 }
 .rectangle4:hover .vesta4 {
   color:rgb( 255, 255, 255 );
-}
-.rectangle4:hover .rectangle44 {
-  background: rgb( 255, 255, 255 );
 }
 .rectangle4:hover .text120-4 {
   color: rgb( 1, 1, 1 )

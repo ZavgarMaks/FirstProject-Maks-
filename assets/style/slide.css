@@ -73,7 +73,8 @@
   z-index:10;
 }
 .ellipse2 {
-  background: rgb( 151, 151, 151 );
+  background: url(../img/above.jpg);
+  background-size: 1000px 1000px;
   position: relative;
   margin-left: 0px;
   margin-top: 25px;  
@@ -83,7 +84,8 @@
   border-radius: 430px; 
 }
 .ellipse1 {
-  background: rgb( 51, 51, 51 );
+  background:url(../img/pexels.jpg);
+  background-size: cover;
   position: relative;
   margin-left: 25px;
   margin-top: -408px;  
@@ -92,7 +94,7 @@
   border-radius: 380px;
   z-index: 13;
 }
-.text380 {
+/*.text380 {
   font-size: 26px;
   font-family:GeorgiaRegularfont; 
   color: rgb( 255, 255, 255 );
@@ -103,7 +105,7 @@
   margin-top: -202px;
   letter-spacing:0px;
   z-index: 14;
-}
+}*/
 .black-out {
   background-color: rgb( 0, 0, 0 );
   opacity: 0.6;
