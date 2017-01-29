@@ -1,21 +1,25 @@
 .border-work {
   background-color: rgb( 48, 48, 48 );
   position: relative;
-  margin-left: 120px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 63px;
   width: 960px;
   height: 3px;
   z-index: 17;
+  display: block;
 }
 .back-work {
   background-color: rgb( 48, 48, 48 );
   border-radius: 10px;
   position: relative;
-  margin-left: 472px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top:-28px;
   width: 256px;
   height: 48px;
   z-index: 17;
+  display: block;
 }
 .latest-work {
   font-size: 32px;
@@ -28,8 +32,17 @@
   margin-top: 2px; 
   padding: 5px;
   z-index: 18;
+  display: block;
 }
 
+.latestwork {
+  padding: 150px 0;
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
 /*1Work*/
 
 .image-bg1 {
@@ -40,6 +53,7 @@
   width: 300px;
   height: 200px;
   z-index: 20;
+  display: block;
 }
 .image-work1 {
   background: url(http://lorempixel.com/290/190/);
@@ -89,11 +103,12 @@
 .image-bg2 {
   background-color: rgb( 255, 255, 255 );
   position: relative;
-  margin-left: 450px;
-  margin-top: -214px;
+  margin-left: 150px;
+  margin-top: 30px;
   width: 300px;
   height: 200px;
   z-index: 20;
+  display: block;
 }
 .image-work2 {
   background: url(http://lorempixel.com/290/190/);
@@ -142,11 +157,12 @@
 .image-bg3 {
   background-color: rgb( 255, 255, 255 );
   position: relative;
-  margin-left: 780px;
-  margin-top: -214px;
+  margin-left: 180px;
+  margin-top: 30px;
   width: 300px;
   height: 200px;
   z-index: 20;
+  display: block;
 }
 .image-work3 {
   background: url(http://lorempixel.com/290/190/);
@@ -197,10 +213,11 @@
   background-color: rgb( 255, 255, 255 );
   position: relative;
   margin-left: 120px;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 300px;
   height: 200px;
   z-index: 20;
+  display: block;
 }
 .image-work4 {
   background: url(http://lorempixel.com/290/190/);
@@ -250,11 +267,12 @@
 .image-bg5 {
   background-color: rgb( 255, 255, 255 );
   position: relative;
-  margin-left: 450px;
-  margin-top: -214px;
+  margin-left: 150px;
+  margin-top: 10px;
   width: 300px;
   height: 200px;
   z-index: 20;
+  display: block;
 }
 .image-work5 {
   background: url(http://lorempixel.com/290/190/);
@@ -287,6 +305,7 @@
   margin-left: 69px;
   top: 167px;
   z-index: 25;
+  
 }
 
 .image-bg5:hover {
@@ -304,11 +323,12 @@
 .image-bg6 {
   background-color: rgb( 255, 255, 255 );
   position: relative;
-  margin-left: 780px;
-  margin-top: -214px;
+  margin-left: 180px;
+  margin-top: 10px;
   width: 300px;
   height: 200px;
   z-index: 20;
+  display: block;
 }
 .image-work6 {
   background: url(http://lorempixel.com/290/190/);

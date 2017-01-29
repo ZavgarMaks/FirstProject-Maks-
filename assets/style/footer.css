@@ -1,42 +1,25 @@
-.footer-bg {
-  background: rgb( 48,48, 48 );
+.footer {
+  padding: 150px 0;
+  overflow: hidden;
+  z-index: 10;
   position: relative;
-  margin-left: 0px;
-  margin-top: 61px;
-  width: 1200px;
-  height: 388px;
-  z-index: 2;
+  display: block;
+  box-sizing: border-box;
 }
-.copy-bg {
-  background-color: rgb( 43, 43, 43 );
-  position: relative;
-  margin-left: 0px;
-  margin-top: 2px;
-  width: 1200px;
-  height: 60px;
-  z-index: 2;
-}
-.bottom-border1 {
-  background-color: rgb( 0, 0, 0 );
-  position: relative;
-  margin-left: 0px;
-  margin-top: -62px;
-  width: 1200px;
-  height: 1px;
-  z-index: 12;
-}
-.bottom-border2 {
-  background-color: rgb( 58, 58, 58 );
-  position: relative;
-  margin-left: 0px;
-  margin-top: 0px;
-  width: 1200px;
-  height: 1px;
-  z-index: 9;
-}
+
 
 
 /*------------BLOG---------------*/
+.blog {
+  display: block;
+  width: 240px;
+  height: 150px;
+  position: relative;
+  z-index: 15;
+  margin-left: 40px;
+  margin-top: 98px;
+
+}
 .from-blog {
   font-size: 16px;
   font-family: GeorgiaRegularfont;
@@ -44,9 +27,10 @@
   line-height: 1.2;
   text-align: left;
   position: relative;
-  margin-left: 119px;
-  margin-top: -352px;
+  margin-left: 120px;
+  margin-top: 0px;
   z-index: 30;
+  display: block;
 }
 .post-title {
   font-size: 14px;
@@ -59,6 +43,7 @@
   margin-top: 30px;
   letter-spacing:1px;
   z-index: 30;
+  display: block;
 }
 .admin {
   font-size: 10px;
@@ -72,6 +57,7 @@
   top: -6px;
   text-decoration: none;
   z-index: 30;
+  display: block;
 }
 .domain-name {
   font-size: 10px;
@@ -82,9 +68,10 @@
   position: relative;
   opacity: 0.7;
   margin-left: 155px;
-  margin-top: -19px;
+  margin-top: -18px;
   letter-spacing:0.5px;
   z-index: 30;
+  display: block;
 }
 .friday {
   font-size: 10px;
@@ -97,6 +84,7 @@
   margin-left: 120px;
   margin-top: 10px;
   z-index: 30;
+  display: block;
 }
 .vestibul {
   font-size: 13px;
@@ -111,6 +99,7 @@
   width: 223px;
   height: 139px;
   z-index: 33;
+  display: block;
 }
 .read-mor {
   font-size: 13px;
@@ -121,13 +110,22 @@
   position: relative;
   letter-spacing:0.33px;
   margin-left: 120px;
-  top: 2px;
+  top: 4px;
   text-decoration: none;
   z-index: 33;
+  display: block;
 }
 
 /*------------LINKS---------------*/
-
+.link {
+  display: block;
+  width: 240px;
+  height: 150px;
+  position: relative;
+  z-index: 15;
+  margin-left: 100px;
+  margin-top: 100px;
+}
 .links {
   font-size: 16px;
   font-family: GeorgiaRegularfont;
@@ -136,9 +134,10 @@
   text-align: left;
   position: relative;
   letter-spacing:-0.2px;
-  margin-left: 364px;
-  margin-top: -291px;
+  margin-left: 20px;
+  margin-top: 0px;
   z-index: 33;
+  display: block;
 }
 .lorem-si {
   font-size: 13px;
@@ -148,10 +147,11 @@
   text-align: left;
   position: relative;
   letter-spacing:0.45px;
-  margin-left: 360px;
-  top: 9px;
+  margin-left:20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .amet {
   font-size: 13px;
@@ -161,10 +161,11 @@
   text-align: left;
   position: relative;
   letter-spacing:0.6px;
-  margin-left: -155px;
-  top: 41px;
+  margin-left: 20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .praesent {
   font-size: 13px;
@@ -174,10 +175,11 @@
   text-align: left;
   position: relative;
   letter-spacing:0.45px;
-  margin-left: -129px;
-  top: 77px;
+  margin-left: 20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .curabitur {
   font-size: 13px;
@@ -187,10 +189,11 @@
   text-align: left;
   position: relative;
   letter-spacing:0.45px;
-  margin-left: -137px;
-  top: 112px;
+  margin-left: 20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .aliquam {
   font-size: 13px;
@@ -200,10 +203,11 @@
   text-align: left;
   position: relative;
   letter-spacing:0.5px;
-  margin-left: -161px;
-  top: 145px;
+  margin-left: 20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .cras {
   font-size: 13px;
@@ -213,10 +217,11 @@
   text-align: left;
   position: relative;
   letter-spacing:0.3px;
-  margin-left: -198px;
-  top: 179px;
+  margin-left: 20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .sed {
   font-size: 13px;
@@ -226,77 +231,93 @@
   text-align: left;
   position: relative;
   letter-spacing:0.3px;
-  margin-left: -133px;
-  top: 215px;
+  margin-left: 20px;
+  top: 15px;
   z-index: 33;
   text-decoration: none;
+  display: block;
 }
 .line1 {
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
-  margin-top: 5px;
+  margin-left: 20px;
+  margin-top: -200px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 .line2 {
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
+  margin-left: 20px;
   margin-top: 33px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 .line3 {
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
+  margin-left: 20px;
   margin-top: 34px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 .line4 {
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
+  margin-left: 20px;
   margin-top: 33px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 .line5 {
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
+  margin-left: 20px;
   margin-top: 34px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 .line6{
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
+  margin-left: 20px;
   margin-top: 33px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 .line7 {
   background-color: rgb( 64, 64, 64 );
   position: relative;
-  margin-left: 364px;
+  margin-left:20px;
   margin-top: 34px;
   width: 225px;
   height: 1px;
   z-index: 33;
+  display: block;
 }
 
 /*------------TWEETS---------------*/
-
+.tweet {
+  display: block;
+  width: 240px;
+  height: 150px;
+  position: relative;
+  z-index: 15;
+  margin-left: 100px;
+  margin-top: 100px;
+}
 .tweets {
   font-size: 16px;
   font-family: GeorgiaRegularfont;
@@ -305,9 +326,10 @@
   text-align: left;
   position: relative;
   letter-spacing: 0.33px;
-  margin-left: 609px;
-  margin-top: -283px;
+  margin-left: 0px;
+  margin-top: 0px;
   z-index: 33;
+  display: block;
 }
 .namehere1 {
   font-size: 13px;
@@ -318,9 +340,10 @@
   text-decoration: none;
   position: relative;
   letter-spacing: 0.7px;
-  margin-left: 609px;
-  top: 16px;
+  margin-left: 0px;
+  top: 21px;
   z-index: 33;
+  display: block;
 }
 .justoid1 {
   font-size: 13px;
@@ -330,11 +353,12 @@
   text-align: left;
   position: relative;
   letter-spacing: 0.3px;
-  margin-left: 610px;
-  margin-top: -5px;
+  margin-left: 0px;
+  margin-top: 0px;
   width: 219px;
   height: 222px;
   z-index: 33;
+  display: block;
 }
 .namehere2 {
   font-size: 13px;
@@ -345,9 +369,10 @@
   position: relative;
   letter-spacing: 0.7px;
   text-decoration: none;
-  margin-left: 609px;
-  top: -110px;
+  margin-left: 0px;
+  top: -106px;
   z-index: 33;
+  display: block;
 }
 .justoid2 {
   font-size: 13px;
@@ -357,15 +382,24 @@
   text-align: left;
   position: relative;
   letter-spacing: 0.3px;
-  margin-left: 610px;
-  margin-top: -130px;
+  margin-left: 0px;
+  margin-top: -128px;
   width: 219px;
   height: 222px;
   z-index: 33;
+  display: block;
 }
 
 /*------------CONTACT---------------*/
-
+.contacts {
+  display: block;
+  width: 240px;
+  height: 150px;
+  position: relative;
+  z-index: 15;
+  margin-left: 70px;
+  margin-top: 100px;
+}
 .contact {
   font-size: 16px;
   font-family: GeorgiaRegularfont;
@@ -374,9 +408,10 @@
   text-align: left;
   position: relative;
   letter-spacing: -0.2px;
-  margin-left: 854px;
-  margin-top: -412px;
+  margin-left: 0px;
+  margin-top: 0px;
   z-index: 25;
+  display: block;
 }
 .inp {
   background-color: rgb( 34, 34, 34 );
@@ -388,11 +423,12 @@
   font-family: GeorgiaRegularfont;
   color: rgb( 152, 152, 152 );
   border: 0px;
-  margin-left: 855px;
-  margin-top: 15px;
+  margin-left: 0px;
+  margin-top: 22px;
   width: 215px;
   height: 33px;
   z-index: 33;
+  display: block;
 }
 .email {
   background-color: rgb( 34, 34, 34 );
@@ -403,11 +439,12 @@
   font-family: GeorgiaRegularfont;
   color: rgb( 152, 152, 152 );
   border: 0px;
-  margin-left: 855px;
-  margin-top: 10px;
+  margin-left: 0px;
+  margin-top: 12px;
   width: 215px;
   height: 33px;
   z-index: 33;
+  display: block;
 }
 .subj {
   background-color: rgb( 34, 34, 34 );
@@ -419,11 +456,12 @@
   font-family: GeorgiaRegularfont;
   color: rgb( 152, 152, 152 );
   border: 0px;
-  margin-left: 855px;
+  margin-left: 0px;
   margin-top: 10px;
   width: 215px;
   height: 33px;
   z-index: 33;
+  display: block;
 }
 .mesag{
   background-color: rgb( 34, 34, 34 );
@@ -435,11 +473,12 @@
   font-family: GeorgiaRegularfont;
   color: rgb( 152, 152, 152 );
   border: 0px;
-  margin-left: 855px;
+  margin-left: 0px;
   margin-top: 10px;
   width: 213px;
   height: 78px;
   z-index: 33;
+  display: block;
 }
 .submit {
   background: rgb( 118, 195, 143 );
@@ -447,12 +486,13 @@
   border-radius: 10px;
   font-family: GeorgiaRegularfont;
   border: 0px;
-  margin-top: 5px;
-  margin-left:855px;
+  margin-top: 10px;
+  margin-left:0px;
   width: 75px;
   height: 35px;
   position: relative;
   z-index: 35;
+  display: block;
 }
 
 .copy {
@@ -466,6 +506,7 @@
   margin-top:64px;
   letter-spacing: 0.4px;
   z-index: 8;
+  display: block;
 }
 .template {
   font-size: 13px;
@@ -475,7 +516,8 @@
   text-align: right;
   position: relative;
   left: -120px;
-  margin-top:-25px;
+  margin-top:-21px;
   letter-spacing: 0.4px;
   z-index: 7;
+  display: block;
 }

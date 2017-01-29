@@ -9,7 +9,8 @@
             src: url(assets/fonts/GeorgiaRegularfont.ttf);
         }
         </style>
-        <link rel="stylesheet" href="assets/style/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/style/header.css">
         <link rel="stylesheet" href="assets/style/background.css">
         <link rel="stylesheet" href="assets/style/slide.css">
@@ -19,205 +20,295 @@
     </head>
     <body>
         <div class="main-container">
-            <!--Header-->       
-            <header>
-                <div class="top-border"> </div>
-                <div>
-                    <a class="the-modernist" href="#"> The Modernist</a>
-                    <p class="free-psd">Free PSD Website Template</p>
-                    <a class="home bl" href="#"> HOME</a>   
-                    <a class="style-demo bl" href="#"> STYLE DEMO</a>
-                    <a class="full-width bl" href="#"> FULL WIDTH</a>
-                    <a class="dropdown bl"   href="#">DROPDOWN</a>
-                    <a class="portfolio bl"  href="#">PORTFOLIO</a>
-                    <a class="gallery bl"    href="#">GALLERY</a>
-                </div>            
-            </header>
+            <section class="main-menu">
+                <div class="container">
+                    <div class="logo">
+                        <a class="the-modernist" href="#"> The Modernist</a>
+                        <p class="free-psd">Free PSD Website Template</p>
+                    </div>
+                    <div class="row">
+                        <ul class="list">
+                            <li class="home col-lg-offset-5 col-lg-1 col-xs-4 ">
+                                <a class="home bl" href="#"> HOME</a>
+                            </li>
+                            <li class="style-demo col-xs-4 col-lg-offset-1 col-lg-1">
+                                <a class="style-demo bl" href="#"> STYLE DEMO</a>
+                            </li>
+                            <li class="full-width col-xs-4 col-lg-1">
+                                <a class="full-width bl" href="#"> FULL WIDTH</a>
+                            </li>
+                            <li class="dropdown col-xs-4 col-lg-1">
+                                <a class="dropdown bl"   href="#">DROPDOWN</a>
+                            </li>
+                            <li class="portfolio col-xs-4 col-lg-1">
+                                <a class="portfolio bl"  href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="gallery col-xs-4 col-lg-1">
+                                <a class="gallery bl"    href="#">GALLERY</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>  
+
+        <!--Slide-->
+            <section class="slider">
+                <div class="container">
+                    <div>
+                        <a href="#"><i class="fa fa-chevron-left shevronl fa-2x" aria-hidden="true"> </i></a>
+                        <a href="#"><i class="fa fa-chevron-right shevronr fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12" style="visibility: visible;">
+                            <div class="text-block">
+                                <p class="cursus-penati"> Cursus penati saccum nulla.</p>
+                                <p class="nullamlacus"> Nullamlacus dui ipsum conseque loborttis non euisque<br>
+                                morbi penas dapibulum orna. Urnaultrices quis<br>
+                                curabitur phasellentesque congue magnis vestibulum<br>
+                                quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                                <a class="read-more" href="#">  Read More Here...</a>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-md-6 col-sm-12 col-xs-12" style="visibility: visible;">
+                            <div class="image">
+                                <div class="ellipse2"> </div> 
+                                <div class="ellipse1"> </div>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                    </div>
+                </div>
+            </section>
+
+        <!--Services-->
+            <section class="services">
+                <div class="container1">
+                    <div class="row">
+                        <!--1-->
+                        <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                            <div class="rectangle1">
+                                <div class="rectangle11"></div>
+                                <a class="title1" href="#">SERVICE TITLE</a>        
+                                <p class="vesta1">Vestassapede et donec ut est
+                                    libe ros sus et eget sed eget
+                                    quisq ueta habitur augue</p>
+                                    
+                                </div>
+                        </div>
+                    <!--2-->
+                        <div class="col-md-3 col-sm-6 col-xs-12 make-xs-column-offset(5)"  style="visibility: visible;">
+                            <div class="rectangle2">
+                                <div class="rectangle22"></div>
+                                <a class="title2" href="#">SERVICE TITLE</a>        
+                                <p class="vesta2">Vestassapede et donec ut est
+                                    libe ros sus et eget sed eget
+                                    quisq ueta habitur augue</p>
+                            </div>
+                        </div>
+                    <!--3-->
+                        <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                            <div class="rectangle3">
+                                <div class="rectangle33"></div>
+                                <a class="title3" href="#">SERVICE TITLE</a>        
+                                <p class="vesta3">Vestassapede et donec ut est
+                                    libe ros sus et eget sed eget
+                                    quisq ueta habitur augue</p>
+                            </div>
+                        </div>
+                    <!--4-->
+                        <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                            <div class="rectangle4">
+                                <div class="rectangle44"></div>
+                                <a class="title4" href="#">SERVICE TITLE</a>        
+                                <p class="vesta4">Vestassapede et donec ut est
+                                    libe ros sus et eget sed eget
+                                    quisq ueta habitur augue</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--LatestWork-->
             
-    <!--Slide-->
-            <div>
-                <a href="#"><i class="fa fa-chevron-left shevronl fa-2x" aria-hidden="true"> </i></a>
-                <a href="#"><i class="fa fa-chevron-right shevronr fa-2x" aria-hidden="true"></i></a>
-            </div>
-            <div class="text-block">
-                    <p class="cursus-penati"> Cursus penati saccum nulla.</p>
-                    <p class="nullamlacus"> Nullamlacus dui ipsum conseque loborttis non euisque<br>
-                        morbi penas dapibulum orna. Urnaultrices quis<br>
-                        curabitur phasellentesque congue magnis vestibulum<br>
-                        quismodo nulla et feugiat adipiscinia pellentum leo.</p>
-                    <a class="read-more" href="#">  Read More Here...</a>
-            </div>
-            <div class="image">
-                <div class="ellipse2"> </div> 
-                <div class="ellipse1"> </div>
-            </div>
-            <div class="black-out">
-            </div>
-
-    <!--Services-->
-        <!--1-->
-            <div class="rectangle1">
-                <div class="rectangle11"></div>
-                <a class="title1" href="#">SERVICE TITLE</a>        
-                <p class="vesta1">Vestassapede et donec ut est
-                    libe ros sus et eget sed eget
-                    quisq ueta habitur augue</p>            
-            </div>
-        <!--2-->
-            <div class="rectangle2">
-                <div class="rectangle22"></div>
-                <a class="title2" href="#">SERVICE TITLE</a>        
-                <p class="vesta2">Vestassapede et donec ut est
-                    libe ros sus et eget sed eget
-                    quisq ueta habitur augue</p>
-            </div>
-        <!--3-->
-            <div class="rectangle3">
-                <div class="rectangle33"></div>
-                <a class="title3" href="#">SERVICE TITLE</a>        
-                <p class="vesta3">Vestassapede et donec ut est
-                    libe ros sus et eget sed eget
-                    quisq ueta habitur augue</p>
-            </div>
-        <!--4-->
-            <div class="rectangle4">
-                <div class="rectangle44"></div>
-                <a class="title4" href="#">SERVICE TITLE</a>        
-                <p class="vesta4">Vestassapede et donec ut est
-                    libe ros sus et eget sed eget
-                    quisq ueta habitur augue</p>
-            </div>
-
-    <!--LatestWork-->
-            <div class="border-work"> </div>
-            <div class="back-work"> 
-                <p class="latest-work">LATEST WORK</p>
-            </div>
-            <div class="rectangle"> </div>
-
-        <!--1-->
-            <div class="image-bg1"> 
-                <div class="image-work1">
-                    <p class="lorem-ipsum1">LOREM IPSUM DOLOR</p> 
-                    <div class="invis1">                                 
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="border-work"> </div>
+                        <div class="back-work"> 
+                            <p class="latest-work">LATEST WORK</p>
+                        </div>
+                        <div class="rectangle"> </div>
                     </div>
-                </div>    
-            </div>
-        <!--2-->
-            <div class="image-bg2"> 
-                <div class="image-work2"> 
-                    <p class="lorem-ipsum2">LOREM IPSUM DOLOR</p> 
-                    <div class="invis2">                                 
-                    </div>
-                </div>    
-            </div>
-        <!--3-->
-            <div class="image-bg3"> 
-                <div class="image-work3">
-                    <p class="lorem-ipsum3">LOREM IPSUM DOLOR</p> 
-                    <div class="invis3">                                 
-                    </div>
-                </div>    
-            </div>
-        <!--4--> 
-            <div class="image-bg4"> 
-                <div class="image-work4">
-                    <p class="lorem-ipsum4">LOREM IPSUM DOLOR</p> 
-                    <div class="invis4">                                 
-                    </div>
-                </div>    
-            </div>
-        <!--5-->
-            <div class="image-bg5"> 
-                <div class="image-work5">
-                    <p class="lorem-ipsum5">LOREM IPSUM DOLOR</p> 
-                    <div class="invis5">                                 
-                    </div>
-                </div>    
-            </div>
-        <!--6-->
-            <div class="image-bg6"> 
-                <div class="image-work6">
-                    <p class="lorem-ipsum6">LOREM IPSUM DOLOR</p> 
-                    <div class="invis6">                                 
-                    </div>
-                </div>    
-            </div>
-    <!--Footer-->
-            <div class="footer-bg"> </div>
-            <div class="copy-bg"> </div>
-            <div class="bottom-border1"> </div>
-            <div class="bottom-border2"> </div>
-        <!--Blog-->
-            <p class="from-blog">From The Blog</p>
-            <p class="post-title">Post Title</p>
-            <a href="#" class="admin">Admin</a>
-            <p class="domain-name">, domainname.com</p>
-            <p class="friday">Friday, 6th April 2000</p>
-            <p class="vestibul">Vestibulumaccumsan egestibulum eu justo convallis
-                augue estas aenean elit inteswue sed. Facilispede estibulum nulla orna 
-                nisl velit elit ac aliquat non tincidunt. Namjusto<br> cras urna urnaretra
-                lor urna neque<br> sed quis orci nulla. </p>
-            <a href="#" class="read-mor">Read More...</a>
-        <!--Links-->
-            <p class="links">Quick Links</p>
-            <a href="#" class="lorem-si">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Lorem ipsum dolor sit</a>
-            <a href="#" class="amet">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Amet consectetur</a>
-            <a href="#" class="praesent">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Praesent vel sem id</a>
-            <a href="#" class="curabitur">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Curabitur hendrerit est</a>
-            <a href="#" class="aliquam">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Aliquam eget erat nec sapien</a>
-            <a href="#" class="cras">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Cras id augue nunc</a>
-            <a href="#" class="sed">
-                <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
-                Sed a nulla urna</a>
-            <div class="line1"> </div>
-            <div class="line2"> </div>
-            <div class="line3"> </div>
-            <div class="line4"> </div>
-            <div class="line5"> </div>
-            <div class="line6"> </div>
-            <div class="line7"> </div>
+                </div>
 
-        <!--Tweets-->
-            <p class="tweets">Latest Tweets</p>
-            <a href="#" class="namehere1">@namehere</a>
-            <p class="justoid1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; 
-                Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
-                Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
-            <a href="#" class="namehere2">@namehere</a>
-            <p class="justoid2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; 
-                Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
-                Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
+            <section class="latestwork">
+                <div class="container">
+                    <div class="row">
+                        
+                            
+                                <ul class="clearfix">
+                                    <li class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                                        <div class="image-bg1"> 
+                                            <div class="image-work1">
+                                                <p class="lorem-ipsum1">LOREM IPSUM DOLOR</p> 
+                                                <div class="invis1">                                 
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </li>
+                                    <li class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                                        <div class="image-bg2"> 
+                                            <div class="image-work2"> 
+                                                <p class="lorem-ipsum2">LOREM IPSUM DOLOR</p> 
+                                                <div class="invis2">                                 
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </li>
+                                    <li class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                                        <div class="image-bg3"> 
+                                            <div class="image-work3">
+                                                <p class="lorem-ipsum3">LOREM IPSUM DOLOR</p> 
+                                                <div class="invis3">                                 
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </li>
+                                </ul>
+                    </div>
+                    <div class="row">
+                        <ul class="clearfix">
+                                    <li class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                                        <div class="image-bg4"> 
+                                            <div class="image-work4">
+                                                <p class="lorem-ipsum4">LOREM IPSUM DOLOR</p> 
+                                                <div class="invis4">                                 
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </li>
+                                    <li class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                                        <div class="image-bg5"> 
+                                            <div class="image-work5">
+                                                <p class="lorem-ipsum5">LOREM IPSUM DOLOR</p> 
+                                                <div class="invis5">                                 
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </li>
+                                    <li class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                                        <div class="image-bg6"> 
+                                            <div class="image-work6">
+                                                <p class="lorem-ipsum6">LOREM IPSUM DOLOR</p> 
+                                                <div class="invis6">                                 
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </li>
+                        </ul>
 
-        <!--Contact-->
+                           
+                        
+                    </div>
+                </div>
+            </section>
+        <!--Footer-->
+            <section class="footer">
+                <div class="container">         
+                    <!--Blog-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                        <div class="blog">
+                        <p class="from-blog">From The Blog</p>
+                        <p class="post-title">Post Title</p>
+                        <a href="#" class="admin">Admin</a>
+                        <p class="domain-name"> domainname.com</p>
+                        <p class="friday">Friday, 6th April 2000</p>
+                        <p class="vestibul">Vestibulumaccumsan egestibulum eu justo convallis
+                            augue estas aenean elit inteswue sed. Facilispede estibulum nulla orna 
+                            nisl velit elit ac aliquat non tincidunt. Namjusto<br> cras urna urnaretra
+                            lor urna neque<br> sed quis orci nulla. </p>
+                        <a href="#" class="read-mor">Read More...</a>
+                        </div>
+                    </div>
+                    <!--Links-->
+                        <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                        <div class="link">
+                        <p class="links">Quick Links</p>
+                        <a href="#" class="lorem-si">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Lorem ipsum dolor sit</a>
+                        <a href="#" class="amet">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Amet consectetur</a>
+                        <a href="#" class="praesent">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Praesent vel sem id</a>
+                        <a href="#" class="curabitur">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Curabitur hendrerit est</a>
+                        <a href="#" class="aliquam">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Aliquam eget erat nec sapien</a>
+                        <a href="#" class="cras">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Cras id augue nunc</a>
+                        <a href="#" class="sed">
+                            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i>
+                            Sed a nulla urna</a>
+                        <div class="line1"> </div>
+                        <div class="line2"> </div>
+                        <div class="line3"> </div>
+                        <div class="line4"> </div>
+                        <div class="line5"> </div>
+                        <div class="line6"> </div>
+                        <div class="line7"> </div>
+                        </div>
+                        </div>
 
-            <p class="contact"> Contact Us</p>
-            <input class="inp" name="FullName" placeholder="Full Name">
-            <input class="email" type="email" name="Email" placeholder="Email Address">
-            <input class="subj" name="Subject" placeholder="Subject">
-            <textarea class="mesag" name="Message" placeholder="Message"></textarea>
-            <input class="submit" type="submit" value="SUBMIT">
+                    <!--Tweets-->
+                    <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                        <div class="tweet">
+                        <p class="tweets">Latest Tweets</p>
+                        <a href="#" class="namehere1">@namehere</a>
+                        <p class="justoid1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; 
+                            Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+                            Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
+                        <a href="#" class="namehere2">@namehere</a>
+                        <p class="justoid2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; 
+                            Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+                            Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
+                    </div>
+                    </div>
+                    <!--Contact-->
+                    <div class="col-md-3 col-sm-6 col-xs-12"  style="visibility: visible;">
+                        <div class="contacts">
+                        <p class="contact"> Contact Us</p>
+                        <input class="inp" name="FullName" placeholder="Full Name">
+                        <input class="email" type="email" name="Email" placeholder="Email Address">
+                        <input class="subj" name="Subject" placeholder="Subject">
+                        <textarea class="mesag" name="Message" placeholder="Message"></textarea>
+                        <input class="submit" type="submit" value="SUBMIT">
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        <!--Copyright-->
 
-    <!--Copyright-->
-
-            <p class="copy">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
-            <p class="template">Template by OS Templates</p>
+                <p class="copy">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
+                <p class="template">Template by OS Templates</p>
         </div>
-
+        <div class="black-out"> </div>
+        <div class="backg"> </div>
+        <div class="footer-bg"> </div>
+        <div class="copy-bg"> </div>
+        <div class="bottom-border1"> </div>
+        <div class="bottom-border2"> </div>
     </body>
 </html>
             
