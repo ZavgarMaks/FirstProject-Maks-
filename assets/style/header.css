@@ -1,189 +1,77 @@
 div {
   display:block;
 }
-.main-menu {
-  min-height: 100px;
-  z-index: 10;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: relative;
-  top: 0px;
-  display: block;
-  box-sizing: border-box;
+
+a {
+  color: white;
 }
-.container {
-  width: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  box-sizing: border-box;
-}
-.logo {
+
+.main-menu .row .logo, .main-menu .row .list {
+  height: 100px;
   padding: 5px 0;
-  float: left;
-  box-sizing: border-box;
-  margin: 0;
+  z-index: 2;
+}
+.main-menu .row .logo a {
+  font-family: GeorgiaRegularfont;
+  line-height: 1;
+  text-align: left;
+  position: relative;
   display: block;
+  top: 35px;
+  text-decoration: none;
 }
 .the-modernist {
   font-size: 28px;
-  font-family: GeorgiaRegularfont;
   color: white;
-  line-height: 1;
-  text-align: left;
-  position: relative;
   letter-spacing:0px;
-  margin-left: 144px;
-  top: 35px;
-  text-decoration: none;
-  z-index:3;
 }
 .free-psd {
   font-size: 11px;
-  font-family: GeorgiaRegularfont;
   color: rgb( 151, 151, 151 );
-  line-height: 1;
-  text-align: left;
-  position: relative;
-  margin-left: 143px;
-  margin-top: 32px;
   letter-spacing:0.75px;
-  z-index:4;
 }
+
 .list {
-  margin-right: -15px;
   list-style: none;
-  box-sizing: border-box;
+  text-align: right;
+}
+
+.list ul {
+  text-align: center;
   padding: 0;
-  display: block;
-  margin-left: 37px;
-  top: 50px;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
 }
-.home {
+
+.list li {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
   text-align: left;
   position: relative;
-  margin-left: 61px;
-  top:9px;
   text-decoration: none;
   letter-spacing:-0.7px;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index:5;
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  text-align: -webkit-match-parent;
+  display: inline-block;
+  margin: 35px 4px auto 4px;
+  padding: 6px;
 }
-.style-demo {
-  font-size: 14px;
-  font-family: "Georgia";
+
+.list li:hover {
+  background: rgb( 118, 195, 143 ); 
+  border-radius: 10px;
+}
+
+.tm-small-menu {
+  margin-top: 45px;
+  text-align: right;
+}
+
+.tm-small-menu button {
+  background-color: transparent;
+  border: 0px;
   color: white;
-  text-align: left;
-  position: relative;
-  margin-left: 20px;
-  top:9px;
-  letter-spacing:-0.7px;
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index:6;
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  text-align: -webkit-match-parent;
+  font-size: 18px;
 }
-.full-width {
-  font-size: 14px;
-  font-family: "Georgia";
-  color: white;
-  text-align: left;
-  position: relative;
-  margin-left: 10px;
-  top: 9px;
-  letter-spacing:-0.3px;
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index:7;
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  text-align: -webkit-match-parent;
-}
-.dropdown {
-  font-size: 14px;
-  font-family: "Georgia";
-  color: white;
-  text-align: left;
-  position: relative;
-  margin-left: 0px;
-  top: 9px;
-  letter-spacing:-0.8px;
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index:8;
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  text-align: -webkit-match-parent;
-}
-.portfolio {
-  font-size: 14px;
-  font-family: "Georgia";
-  color: white;
-  text-align: left;
-  position: relative;
-  margin-left: 0px;
-  top: 9px;
-  letter-spacing:-0.3px;
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index:9;
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  text-align: -webkit-match-parent;
-}
-.gallery {
-  font-size: 14px;
-  font-family: "Georgia";
-  color: white;
-  text-align: left;
-  position: relative;
-  margin-left: 0px;
-  top: 9px;
-  letter-spacing:-0.3px;
-  text-decoration: none;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index:10;
-  float: left;
-  display: block;
-  box-sizing: border-box;
-  text-align: -webkit-match-parent;
-}
-.bl:hover {
-    background: rgb( 118, 195, 143 ); 
-    border-radius: 10px;
+
+.tm-right-dropdown {
+  right: 0;
+  left: auto;
 }
