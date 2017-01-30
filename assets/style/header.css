@@ -1,13 +1,13 @@
-a {
+.tm-list a {
   color: white;
 }
 
-.main-menu .row .logo, .main-menu .row .list {
+.tm-main-menu .row .logo, .tm-main-menu .row .tm-list {
   height: 100px;
   padding: 5px 0;
   z-index: 2;
 }
-.main-menu .row .logo a {
+.tm-main-menu .row .logo a {
   font-family: GeorgiaRegularfont;
   line-height: 1;
   text-align: left;
@@ -16,28 +16,28 @@ a {
   top: 35px;
   text-decoration: none;
 }
-.the-modernist {
+.tm-the-modernist {
   font-size: 28px;
   color: white;
   letter-spacing:0px;
 }
-.free-psd {
+.tm-free-psd {
   font-size: 11px;
   color: rgb( 151, 151, 151 );
   letter-spacing:0.75px;
 }
 
-.list {
+.tm-list {
   list-style: none;
   text-align: right;
 }
 
-.list ul {
+.tm-list ul {
   text-align: center;
   padding: 0;
 }
 
-.list li {
+.tm-list li {
   font-size: 14px;
   font-family: "Georgia";
   color: white;
@@ -49,8 +49,11 @@ a {
   margin: 35px 4px auto 4px;
   padding: 6px;
 }
+.tm-list li a {
+  text-decoration: none;
+}
 
-.list li:hover {
+.tm-list li:hover {
   background: rgb( 118, 195, 143 ); 
   border-radius: 10px;
 }
@@ -65,9 +68,11 @@ a {
   border: 0px;
   color: white;
   font-size: 18px;
+  z-index: 5;
 }
 
 .tm-right-dropdown {
   right: 0;
   left: auto;
+  z-index: 5;
 }

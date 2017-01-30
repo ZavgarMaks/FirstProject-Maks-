@@ -1,5 +1,5 @@
-.services {
-  padding: 150px 0;
+.tm-services {
+  padding: 0px 0;
 }
 
 .tm-service-block {
@@ -13,20 +13,17 @@
   margin-right: auto;
 }
 
-/*Block1*/
-.rectangle11 {
-  background: url(https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png);
-  background-size: contain;
-  position: relative;
+.tm-logos {
+  background-size: contain !important;
   margin-left: 52px;
+  position: relative;
   top: 21px;
   width: 120px;
   height: 120px;
   display: block;
   z-index: 15 ;
 }
-
-.title1 {
+.tm-title-service {
   font-size:32px;
   font-family: GeorgiaRegularfont;
   color: rgb( 51, 51, 51 );
@@ -39,8 +36,10 @@
   text-decoration: none;
   z-index: 17;
 }
-
-.vesta1 {
+.tm-service-block a {
+  text-decoration: none;
+}
+.tm-service-text {
   font-size: 13px;
   z-index:17;
   font-family: GeorgiaRegularfont;
@@ -54,210 +53,27 @@
   height: 47px;
   letter-spacing: -0.1px;
 }
-.rectangle1:hover .vesta1 {
+
+.tm-logo1 {
+  background: url(https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png);
+}
+.tm-logo2 {
+  background: url(../img/css3.png);
+} 
+.tm-logo3 {
+  background: url(../img/javascript.png);
+}
+.tm-logo4 {
+  background: url(http://www.mgatmaytan.arkitech.ca/images/technologies/php.png);
+}
+
+
+.tm-service-block:hover .tm-service-text {
   color:rgb( 255, 255, 255 );
 }
-.rectangle1:hover .text120-1 {
-  color: rgb( 1, 1, 1 )
-}
-.rectangle1:hover .title1 {
+.tm-service-block:hover .tm-title-service {
   color: rgb( 255, 255, 255 );
 }
-.rectangle1:hover {
+.tm-service-block:hover {
   background: rgb( 118, 195, 143 );
 }  
-
-/*Block2*/
-
-.rectangle2 {
-  background-color: rgb( 255, 255, 255 );
-  position: relative;
-  margin-left: 80px;
-  margin-top: -2px;
-  width: 225px;
-  height: 305px;
-  z-index: 14;
-   display: block;
-}
-.rectangle22 {
-  background: url(../img/css3.png);
-  background-size: contain;
-  position: relative;
-  margin-left: 52px;
-  top: 21px;
-  width: 120px;
-  height: 120px;
-  z-index: 15 ;
-   display: block;
-}
-.title2 {
-  font-size:32px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 51, 51, 51 );
-  text-align: center;
-  position: relative;
-  line-height: 1;
-  margin-left: 0px;
-  margin-top: 35px;
-  display: block;
-  text-decoration: none;
-  z-index: 17;
-   display: block;
-}
-.vesta2 {
-  font-size: 13px;
-  z-index:17;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 151, 151, 151 );
-  line-height: 1.3;
-  text-align: center;
-  position: relative;
-  margin-left: 25px;
-  margin-top: 17px;
-  width: 175px;
-  height: 47px;
-  letter-spacing: -0.1px;
-   display: block;
-}
-.rectangle2:hover .vesta2 {
-  color:rgb( 255, 255, 255 );
-}
-.rectangle2:hover .text120-2 {
-  color: rgb( 1, 1, 1 )
-}
-.rectangle2:hover .title2 {
-  color: rgb( 255, 255, 255 );
-}
-.rectangle2:hover {
-  background: rgb( 118, 195, 143 );
-}
-
-/*Block3*/
-
-.rectangle3 {
-  background-color: rgb( 255, 255, 255 );
-  position: relative;
-  margin-left: 35px;
-  margin-top: -2px;
-  width: 225px;
-  height: 305px;
-  z-index: 14;
-   display: block;
-}
-.rectangle33 {
-  background: url(../img/javascript.png);
-  background-size: contain;
-  position: relative;
-  margin-left: 52px;
-  top: 21px;
-  width: 120px;
-  height: 120px;
-  z-index: 15 ;
-   display: block;
-}
-.title3 {
-  font-size:32px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 51, 51, 51 );
-  text-align: center;
-  position: relative;
-  line-height: 1;
-  margin-left: 0px;
-  margin-top: 35px;
-  display: block;
-  text-decoration: none;
-  z-index: 17;
-}
-
-.vesta3 {
-  font-size: 13px;
-  z-index:17;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 151, 151, 151 );
-  line-height: 1.3;
-  text-align: center;
-  position: relative;
-  margin-left: 25px;
-  margin-top: 13px;
-  width: 175px;
-  height: 47px;
-  letter-spacing: -0.1px;
-}
-.rectangle3:hover .vesta3 {
-  color:rgb( 255, 255, 255 );
-}
-.rectangle3:hover .text120-3 {
-  color: rgb( 1, 1, 1 )
-}
-.rectangle3:hover .title3 {
-  color: rgb( 255, 255, 255 );
-}
-.rectangle3:hover {
-  background: rgb( 118, 195, 143 );
-}
-
-/*Block4*/
-
-.rectangle4 {
-  background-color: rgb( 255, 255, 255 );
-  position: relative;
-  margin-left: -12px;
-  margin-top: -2px;
-  width: 225px;
-  height: 305px;
-  z-index: 14;
-   display: block;
-}
-.rectangle44 {
-  background: url(http://www.mgatmaytan.arkitech.ca/images/technologies/php.png);
-  background-size: contain;
-  position: relative;
-  margin-left: 52px;
-  top: 21px;
-  width: 120px;
-  height: 120px;
-  z-index: 15 ;
-   display: block;
-}
-.title4 {
-  font-size:32px;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 51, 51, 51 );
-  text-align: center;
-  position: relative;
-  line-height: 1;
-  margin-left: 0px;
-  margin-top: 35px;
-  display: block;
-  text-decoration: none;
-  z-index: 17;
-   display: block;
-}
-
-.vesta4 {
-  font-size: 13px;
-  z-index:17;
-  font-family: GeorgiaRegularfont;
-  color: rgb( 151, 151, 151 );
-  line-height: 1.3;
-  text-align: center;
-  position: relative;
-  margin-left: 25px;
-  margin-top: 13px;
-  width: 175px;
-  height: 47px;
-  letter-spacing: -0.1px;
-   display: block;
-}
-.rectangle4:hover .vesta4 {
-  color:rgb( 255, 255, 255 );
-}
-.rectangle4:hover .text120-4 {
-  color: rgb( 1, 1, 1 )
-}
-.rectangle4:hover .title4 {
-  color: rgb( 255, 255, 255 );
-}
-.rectangle4:hover {
-  background: rgb( 118, 195, 143 );
-}

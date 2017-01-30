@@ -1,4 +1,4 @@
-.slider {
+.tm-slider {
   position: relative;
   z-index: 10;
   display: block;
@@ -6,52 +6,41 @@
   padding:150px 0;
 }
 
-/*.shevronl {
-  position: relative;
-  color: rgb( 118, 195, 143 );
-  top: 70px;
-  margin-left: 140px;
-  z-index:10; 
-}
-.shevronr {
-  position: relative;
-  color: rgb( 118, 195, 143 );
-  top: 43px;
-  margin-left: 1083px;
-  z-index:10; 
-}*/
-.text-block {
+.tm-text-block {
   width: 100%;
-  height: 300px;
-  
+  height: 300px; 
 }
 
 .tm-shevron {
   margin-top: 65px;
+  color: rgb( 118, 195, 143 );
 }
 
-.text-block p {
+.tm-text-block p {
   font-family: GeorgiaRegularfont;
   color: rgb( 255, 255, 255 );
 
 }
 
-.text-block .tm-header {
+.tm-text-block .tm-header {
   font-size: 47px;
   font-family: GeorgiaRegularfont;
   letter-spacing:-0.5px;
   line-height: 1;
 }
 
-.text-block .tm-text {
+.tm-text-block .tm-text {
   font-size: 14px;
   font-family: GeorgiaRegularfont;
   color: rgb( 151, 151, 151 );
   line-height: 1.42;
 }
+.tm-text-block a {
+  text-decoration: none;
+}
 
 
-.ellipse-out {
+.tm-ellipse-out {
   background: url(../img/above.jpg);
   width: 350px;
   height: 350px;
@@ -59,7 +48,7 @@
   padding-top: 15px;
   margin-top: -70px;
 }
-.ellipse-in {
+.tm-ellipse-in {
   background:url(../img/pexels.jpg);
   background-size: cover;
   width: 320px;
@@ -67,33 +56,48 @@
   margin: 0 auto;
   border-radius: 100%;
 }
+.tm-text-block a {
+  padding: 5px 10px 5px 10px;
+  background: rgb( 118, 195, 143 );
+  border-radius: 10px;
+  font-family: GeorgiaRegularfont;
+  color: rgb( 255, 255, 255 );
+
+}
 
 @media (max-width: 992px) {
-  .ellipse-out {
+  .tm-ellipse-out {
     width: 300px;
     height: 300px;
   }
-  .ellipse-in {
+  .tm-ellipse-in {
     width: 270px;
     height: 270px;
   }
-  .text-block {
+  .tm-text-block {
     margin-top: -70px;
   }
 }
 
 @media (max-width: 768px) {
-  .ellipse-out {
+  .tm-ellipse-out {
     width: 200px;
     height: 200px;
   }
-  .ellipse-in {
+  .tm-ellipse-in {
     width: 170px;
     height: 170px;
   }
-  .text-block {
+  .tm-text-block {
     margin-top: -70px;
   }
+  .tm-text-block .tm-header {
+    font-size: 40px;
+  }
+  .tm-text-block .tm-text {
+    font-size: 10px;
+  }
+  .tm-text-block a {
+    font-size: 10px;
+  }
 }
-
-/*less medias*/
