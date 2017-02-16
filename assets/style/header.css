@@ -2,11 +2,11 @@
   color: white;
 }
 
-.tm-main-menu .row .logo, .tm-main-menu .row .tm-list {
+.tm-main-menu .logo, .tm-main-menu .tm-list {
   padding: 5px 0;
   z-index: 2;
 }
-.tm-main-menu .row .logo a {
+.tm-main-menu .logo a {
   font-family: GeorgiaRegularfont;
   line-height: 1;
   text-align: left;
