@@ -104,8 +104,9 @@
   z-index: 33;
   text-decoration: none;
   margin-left: -40px;
+  border-bottom: 1px solid rgb( 64, 64, 64 );;
 }
-.tm-line {
+/*.tm-line {
   background-color: rgb( 64, 64, 64 );
   position: relative;
   margin-left: 0px;
@@ -132,7 +133,7 @@
 }
 .tm-line6 {
   margin-top: 33px;
-}
+}*/
 /*------------TWEETS---------------*/
 .tm-namehere1 {
   font-size: 13px;
